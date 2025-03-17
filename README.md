@@ -5,7 +5,7 @@ A simple command-line application for managing tasks. It allows users to create,
 1. Make sure you have [.NET SDK](https://dotnet.microsoft.com/download) installed.  
 2. Clone the repository:  
    ```sh
-   git clone https://github.com/YOUR_USERNAME/task-tracker.git
+   git clone https://github.com/RunasTheAweken/TaskHolder.git
    cd task-tracker
    ```
 3. Build and run the application:  
