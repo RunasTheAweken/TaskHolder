@@ -68,6 +68,8 @@ class Program
                             Console.WriteLine($"Название: {mytask.Title}");
                             Console.WriteLine($"Описание: {mytask.Description}");
                             Console.WriteLine($"Статус: {mytask._TaskState}");
+                            Console.WriteLine($"Время создания: {mytask.DateCreated}");
+                            Console.WriteLine($"Последний раз обновлен: {mytask.DateUpdated}");
                         }
                         else if (Enum.GetNames<TaskState>().Contains(args[1]))
                         {
@@ -128,6 +130,7 @@ class Program
                         taskToUpdate._TaskState = updatestate;
                         taskToUpdate.Title = title;
                         taskToUpdate.Description = description;
+                        taskToUpdate.DateUpdated = DateTime.Now;
                         UpdateFile();
                         Console.WriteLine($@"Задача {taskToUpdate.Title} обновлена");
                     }
@@ -153,7 +156,8 @@ class Program
         public TaskState _TaskState { get; set; }
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-
+        public DateTime DateCreated {get;set;} = DateTime.Now; 
+        public DateTime DateUpdated {get;set;} = DateTime.Now;
     }
     static void UpdateFile()
     {

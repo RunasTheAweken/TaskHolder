@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Worksapce\\C#\\practice2\\practice2.csproj": {}
+    "D:\\Worksapce\\C#\\practice2\\TaskHolder\\practice2.csproj": {}
   },
   "projects": {
-    "D:\\Worksapce\\C#\\practice2\\practice2.csproj": {
+    "D:\\Worksapce\\C#\\practice2\\TaskHolder\\practice2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Worksapce\\C#\\practice2\\practice2.csproj",
+        "projectUniqueName": "D:\\Worksapce\\C#\\practice2\\TaskHolder\\practice2.csproj",
         "projectName": "practice2",
-        "projectPath": "D:\\Worksapce\\C#\\practice2\\practice2.csproj",
+        "projectPath": "D:\\Worksapce\\C#\\practice2\\TaskHolder\\practice2.csproj",
         "packagesPath": "C:\\Users\\runas\\.nuget\\packages\\",
-        "outputPath": "D:\\Worksapce\\C#\\practice2\\obj\\",
+        "outputPath": "D:\\Worksapce\\C#\\practice2\\TaskHolder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\runas\\AppData\\Roaming\\NuGet\\NuGet.Config",
